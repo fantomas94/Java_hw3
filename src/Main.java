@@ -16,6 +16,7 @@ public class Main {
             }
 
         }
+        // show message
         System.out.println("среднее массива "+bob / java);
 
         // recount from lower to bigger
