@@ -1,10 +1,7 @@
-import java.lang.reflect.Array;
 import java.util.Arrays;
 
 public class Main {
     public static void main (String[] args) {
-
-
 
         double [] mass= {6.1 , 7.1, -7.1, 11.2, 66.1, 3.1, 4.1, 5.2, 9.2, 10.1, -11.1, 12.2, 20.1, 30.1, 70.1};
         double bob = 0;
@@ -21,7 +18,7 @@ public class Main {
         }
         System.out.println("среднее массива "+bob / java);
 
-
+        // recount from lower to bigger
         int [] massiv = {8,  3,  6, -4, -2, 2};
         System.out.println(Arrays.toString(massiv));
         for (int i = 0; i < massiv.length; i++) {
